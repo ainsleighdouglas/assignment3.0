@@ -34,7 +34,7 @@ function setup() {
   setInterval(makeCollage, 1000); //higher number slows the change in images down
 
  // p = p - .01;
-  pixelDensity(1);
+  pixelDensity(.1);
 
   //image(img, 0, 0, width, height);
   //image(flowers, 0, 0, width, height);
