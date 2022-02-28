@@ -6,7 +6,7 @@ let totalArt = 0;
 let t = 0;
 //let p = 100;
 
-let pixelation_level = 10;
+let pixelation_level = 100;
 
 //const fadeSpeed = 1;
 
@@ -34,7 +34,7 @@ function setup() {
   setInterval(makeCollage, 1000); //higher number slows the change in images down
 
  // p = p - .01;
-  pixelDensity(.1);
+  pixelDensity(.05);
 
   //image(img, 0, 0, width, height);
   //image(flowers, 0, 0, width, height);
